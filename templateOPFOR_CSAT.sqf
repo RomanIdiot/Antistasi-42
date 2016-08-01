@@ -20,11 +20,11 @@ opUAVsmall = 		"O_UAV_01_F"; // Tayran AR-2
 opAir = 			["O_Heli_Light_02_unarmed_F","O_Heli_Transport_04_bench_F","O_Heli_Attack_02_F","O_Plane_CAS_02_F","O_Heli_Light_02_F"];
 
 // infantry classes, to allow for class-specific skill adjustments and pricing
-opIOfficer = 		"O_officer_F"; // officer/official
-opIPilot = 			"O_helipilot_F"; // pilot
-opIOfficer_2 = 		"O_G_officer_F"; // officer/traitor
-opIUSL = 			"O_SoldierU_SL_F"; // squad leader, urban camo
-opIURifle = 		"O_soldierU_F"; // rifleman, urban camo
+opIOfficer = 		"SG_sturmtrooper_lieutenant"; // officer/official
+opIPilot = 			"LIB_GER_pilot"; // pilot
+opIOfficer_2 = 		"SG_sturmtrooper_unterofficer"; // officer/traitor
+opIUSL = 			"SG_sturmtrooper_unterofficer"; // squad leader, urban camo
+opIURifle = 		"SG_sturmtrooper_stggunner"; // rifleman, urban camo
 
 	
 // config path for infantry groups

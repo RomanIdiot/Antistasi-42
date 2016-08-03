@@ -31,8 +31,8 @@ opIURifle = 		"SG_sturmtrooper_stggunner"; // rifleman, urban camo
 opCfgInf = 			(configfile >> "CfgGroups" >> "West" >> "SG_STURM" >> "Infantry");	
 
 // standard group arrays, used for spawning groups
-opISniper = 		["LIB_GER_scout_sniper","LIB_GER_scout_ober_rifleman"]; // sniper team
-opISpecOps = 		["SG_sturmtrooper_unterofficer","SG_sturmtrooper_mgunner","LIB_GER_scout_sniper","SG_sturmtrooper_stggunner","SG_sturmtrooper_stggunner","SG_sturmtrooper_stggunner","SG_sturmtrooper_stggunner"; // spec opcs
+opISniper = 		"SS_SniperTeam"; // sniper team
+opISpecOps = 		"SS_MP44Squad"; // spec opcs
 opISquad = 		"SG_GER_infantry_squad"; // squad
 
 // the affiliation

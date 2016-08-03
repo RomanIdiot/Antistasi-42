@@ -47,6 +47,70 @@ minplayers=1;
 maxplayers=32;
 };
 
+class CfgGroups
+{
+	class SS_SniperTeam {
+    name = "SS Snipers";
+    side = east;
+    faction = "SS_STURM";
+    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+    class Unit0 {
+        side = east;
+        vehicle = "LIB_GER_scout_sniper";
+        rank = "CORPORAL";
+        position[] = {0,0,0};
+    };
+    class Unit1 {
+        side = east;
+        vehicle = "LIB_GER_scout_ober_rifleman";
+        rank = "PRIVATE";
+        position[] = {5,-5,0};
+    };
+	};
+	class SS_MP44Squad {
+    name = "SS MP44 Squad";
+    side = east;
+    faction = "SS_STURM";
+    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+    class Unit0 {
+        side = east;
+        vehicle = "SG_sturmtrooper_unterofficer";
+        rank = "CORPORAL";
+        position[] = {0,0,0};
+				};
+    class Unit2 {
+        side = east;
+        vehicle = "SG_sturmtrooper_mgunner";
+        rank = "PRIVATE";
+        position[] = {5,-5,0};
+				};
+	class Unit3 {
+        side = east;
+        vehicle = "SG_sturmtrooper_stggunner";
+        rank = "PRIVATE";
+        position[] = {10,-10,0};
+				};
+	class Unit4 {
+        side = east;
+        vehicle = "SG_sturmtrooper_stggunner";
+        rank = "PRIVATE";
+        position[] = {15,-15,0};
+				};
+	class Unit5 {
+        side = east;
+        vehicle = "SG_sturmtrooper_stggunner";
+        rank = "PRIVATE";
+        position[] = {20,-20,0};
+				};
+	class Unit6 {
+        side = east;
+        vehicle = "SG_sturmtrooper_stggunner";
+        rank = "PRIVATE";
+        position[] = {25,-25,0};
+	};
+};
+};
+
 class CfgSounds
 {
     class fire
